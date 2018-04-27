@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Ukrainian (Ukraine) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 357, 367
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Списки"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_1,104,30,130,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Додати предмет",IDC_ADD,104,45,130,17,BS_FLAT,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Видалити предмет",IDC_DEL,104,81,130,17,BS_FLAT,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT_2,103,114,130,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Знайти предмет",IDC_FIND,103,129,130,17,BS_FLAT,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Очистити список предметів",IDC_DELALL,103,150,130,17,BS_FLAT,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Список з одинарним вибором",IDC_STATIC,7,7,343,164,BS_CENTER
+    GROUPBOX        "Введіть предмет:",IDC_STATIC,97,20,144,45,BS_CENTER
+    GROUPBOX        "Виберіть із списку предмет для знищення",IDC_STATIC,97,71,144,30
+    GROUPBOX        "Введіть назву предмета для пошуку",IDC_STATIC,97,104,144,45,BS_CENTER
+    GROUPBOX        "Список з множинним вибором",IDC_STATIC,7,175,343,178,BS_CENTER
+    LISTBOX         IDC_LIST_2,11,184,232,96,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Отримати вибрані предмети",IDC_GETSELITEMS,11,284,232,18,BS_FLAT,WS_EX_DLGMODALFRAME
+    LISTBOX         IDC_LIST_1,11,20,81,147,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_3,11,308,228,42,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL
+    LISTBOX         IDC_LIST1,258,24,53,53,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 360
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Ukrainian (Ukraine) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
